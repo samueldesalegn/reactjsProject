@@ -1,0 +1,78 @@
+/* Product Details Container */
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 5px;
+  justify-content: center;
+  horizontal-align: center;
+  margin: 5px;
+}
+
+/* Product Info Styles */
+.product-info {
+  text-align: center;
+  border: 5px solid blue;
+  margin: 5px;
+  padding: 10px; /* Add padding for consistent height */
+  width: 300px; /* Set a fixed width for consistent width */
+}
+
+/* In Stock Style */
+.instock {
+  background-color: #d1ffd9; /* Green background for in-stock items */
+}
+
+/* Out of Stock Style */
+.out-of-stock {
+  background-color: #ffdbdb; /* Red background for out-of-stock items */
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  flex-direction: row; /* Change to row to place buttons in one line */
+  align-items: center; /* Vertically align buttons */
+}
+
+/* Edit Button Styles */
+.edit-button {
+  text-align: center;
+  justify-content: center;
+  border: 5px solid blue;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Delete Button Styles */
+.delete-button {
+  text-align: center;
+  justify-content: center;
+  border: 5px solid red; /* Set border color to red */
+  margin: 5px;
+  cursor: pointer;
+  background-color: #ff0000; /* Set background color to red */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* .delete-button:hover {
+  background-color: #cc0000;
+} */
+
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
